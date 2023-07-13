@@ -1,10 +1,10 @@
 {
   "name": "layout-greed",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "Design grid layout that guides you when making layouts for frontend.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "dist/typings/src/index.d.ts",
+  "types": "dist/types.d.ts",
   "scripts": {
     "test": "jest",
     "build": "rollup -c --bundleConfigAsCjs",

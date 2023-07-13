@@ -1,5 +1,5 @@
 import { ChangeEventHandler } from "react";
-export interface InputProps {
+interface InputProps {
     id?: string;
     label?: string;
     error?: boolean;
@@ -9,3 +9,5 @@ export interface InputProps {
     placeholder?: string;
     onChange?: ChangeEventHandler<HTMLInputElement>;
 }
+declare const Input: React.FC<InputProps>;
+export { InputProps, Input };
