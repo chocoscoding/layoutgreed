@@ -1,2 +1,2 @@
-export * from "./components/Input/Input.types";
-export * from "./components/Button/Button.types";
+export * from "./components/Input/Input";
+export * from "./components/Button/Button";
