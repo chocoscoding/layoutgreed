@@ -1,15 +1,16 @@
 {
   "name": "layout-greed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Design grid layout that guides you when making layouts for frontend.",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/types/src/index.d.ts",
   "scripts": {
     "test": "jest",
     "build": "rollup -c --bundleConfigAsCjs",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "publish": "npm publish --access public"
   },
   "author": "chocoscoding",
   "license": "MIT",
